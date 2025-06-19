@@ -1,0 +1,9 @@
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    // Aquí iría la lógica para enviar el formulario a un backend o servicio de email.
+    // Por ahora solo mostramos una confirmación en pantalla.
+    
+    document.getElementById('confirmation').classList.remove('hidden');
+    this.reset();
+});
