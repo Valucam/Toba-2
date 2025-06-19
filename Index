@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOBA - Datos Limpios y Eficientes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>TOBA</h1>
+        <p>Solo lo esencial</p>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2>¿Qué hacemos en TOBA?</h2>
+            <p>TOBA ordena, actualiza y valida tus bases de datos. Eliminamos duplicados, corregimos datos desactualizados y te entregamos información limpia, lista para potenciar tus decisiones de negocio.</p>
+            <p>Trabajamos con tus sistemas actuales, sin migraciones forzadas, y garantizamos simplicidad, precisión y eficiencia.</p>
+        </section>
+
+        <section class="benefits">
+            <h2>¿Por qué elegirnos?</h2>
+            <ul>
+                <li>✔️ Mejor segmentación para tus campañas.</li>
+                <li>✔️ Mayor retención de clientes con datos actualizados.</li>
+                <li>✔️ Decisiones informadas basadas en información precisa.</li>
+                <li>✔️ Tu equipo se enfoca en vender, nosotros nos ocupamos de limpiar.</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2>Envianos tu consulta</h2>
+            <form id="contactForm">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Consulta:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="confirmation" class="hidden">¡Tu consulta fue enviada!</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 TOBA. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
